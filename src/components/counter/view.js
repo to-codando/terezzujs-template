@@ -32,11 +32,9 @@ const template = ({ state, html, methods }) => html`
    </div>
 `
 
-events.onClickToIncrement = ({ query, methods }) => {
-  const btnIncrement = query('button')
-  btnIncrement.onclick = () => {
-    methods.increment()
-  }
+events.onClickToIncrement = ({ on, queryOnce, methods }) => {
+  const btnIncrement = queryOnce('button')
+  on('click', btnIncrement, methods.increment)
 }
 
 export const view = () => ({
