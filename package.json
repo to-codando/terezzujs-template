@@ -64,6 +64,6 @@
 		"standard": "^17.0.0"
 	},
 	"dependencies": {
-		"terezzujs": "^1.0.6"
+		"terezzujs": "^1.0.9"
 	}
 }

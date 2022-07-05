@@ -1,4 +1,4 @@
-import { createApp } from '../_lib/appFactory'
+import { createApp } from 'terezzujs'
 
 import { notFound } from './pages/notFound'
 import { main } from './pages/main'
