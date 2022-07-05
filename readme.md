@@ -1,4 +1,6 @@
+<div style="display:block;width:100%;text-align:center;">
 <img src="./src/assets/images/logo.png" alt="MarineGEO circle logo" style="display:block; height: 100px; width:100px; margin:75px auto"/>
+</div>
 
 ### O Template 
 
